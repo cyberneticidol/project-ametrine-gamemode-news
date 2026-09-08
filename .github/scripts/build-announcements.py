@@ -88,7 +88,7 @@ def fetch_releases(repo, token, urlopen=None):
         url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page={page}"
         req = urllib.request.Request(url)
         req.add_header("Accept", "application/vnd.github+json")
-        req.add_header("User-Agent", "bazzite-gamemode-news")
+        req.add_header("User-Agent", "project-ametrine-gamemode-news")
         if token:
             req.add_header("Authorization", f"Bearer {token}")
         with opener(req, timeout=30) as resp:
