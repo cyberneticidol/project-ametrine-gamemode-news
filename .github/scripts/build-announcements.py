@@ -13,7 +13,7 @@ OUTPUT_FILE = os.path.join(ROOT_DIR, "announcements.json")
 DOCS_DIR = os.path.join(ROOT_DIR, "docs")
 HTML_FILE = os.path.join(DOCS_DIR, "index.html")
 
-SOURCE_REPO = os.environ.get("SOURCE_REPO", "ublue-os/bazzite")
+SOURCE_REPO = os.environ.get("SOURCE_REPO", "cyberneticidol/project-ametrine")
 
 # branch -> (prerelease_filter, channel)
 BRANCH_CONFIG = {
