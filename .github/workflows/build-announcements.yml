@@ -46,7 +46,7 @@ jobs:
         run: python3 .github/scripts/build-announcements.py
         env:
           RELEASE_BRANCH: ${{ steps.target.outputs.branch }}
-          SOURCE_REPO: ublue-os/bazzite
+          SOURCE_REPO: cyberneticidol/project-ametrine
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TZ: UTC
 
